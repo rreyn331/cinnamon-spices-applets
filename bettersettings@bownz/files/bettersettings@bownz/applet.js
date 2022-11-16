@@ -131,7 +131,7 @@ MyApplet.prototype = {
             });
 
 	     this.menu.addAction(_("System Settings"), function(event) {
-                Util.spawnCommandLine("cinnamon-control-center");
+                Util.spawnCommandLine("cinnamon-settings startup");
             });
 
         }
